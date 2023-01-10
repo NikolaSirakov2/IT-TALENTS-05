@@ -32,3 +32,16 @@
 // console.log(text);
 
 // console.log(undefined == false);
+
+function a() {
+  function b() {
+    console.log(c);
+  }
+  var c = "`Maika mu";
+
+  return function () {
+    return b;
+  };
+}
+
+console.log(a()()());
