@@ -16,7 +16,19 @@
 
 // one(1, 2, 3);
 
-let a = 0;
-let b = [];
+// let a = 0;
+// let b = [];
 
-console.log(++a && !!"false" && b);
+// console.log(++a && !!"false" && b);
+
+// let arr = [1, 2];
+
+// arr[0] = arr;
+
+// console.log(arr);
+
+// let text = "Maika mu!";
+// text = text.split("mu").join(" ");
+// console.log(text);
+
+// console.log(undefined == false);
