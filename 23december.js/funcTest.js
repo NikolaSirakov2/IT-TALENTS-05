@@ -33,15 +33,21 @@
 
 // console.log(undefined == false);
 
-function a() {
-  function b() {
-    console.log(c);
-  }
-  var c = "`Maika mu";
+// function a() {
+//   function b() {
+//     console.log(c);
+//   }
+//   var c = "`Maika mu";
 
-  return function () {
-    return b;
-  };
-}
+//   return function () {
+//     return b;
+//   };
+// }
 
-console.log(a()()());
+// console.log(a()()());
+
+let array = [1, 2, 3, 4];
+
+let deep = [];
+
+for (let i = 0; i < array.length; i++) {}
