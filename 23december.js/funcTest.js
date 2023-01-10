@@ -15,3 +15,8 @@
 // }
 
 // one(1, 2, 3);
+
+let a = 0;
+let b = [];
+
+console.log(++a && !!"false" && b);
