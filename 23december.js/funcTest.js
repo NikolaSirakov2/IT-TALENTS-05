@@ -46,8 +46,17 @@
 
 // console.log(a()()());
 
-let array = [1, 2, 3, 4];
+let matr = [
+  [1, 2, 3, 4],
+  [3, 5, 6, 3],
+];
 
-let deep = [];
+let newMatr = [];
 
-for (let i = 0; i < array.length; i++) {}
+for (let i = 0; i < matr.length; i++) {
+  newMatr[i] = matr[i].slice(0, matr[i].length);
+}
+
+newMatr[0][0] = 2;
+console.log(matr[0]);
+console.log(newMatr[0]);
